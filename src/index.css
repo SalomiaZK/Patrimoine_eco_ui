@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+  font-family:  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+   backdrop-filter: blur(15px);
+  color: aliceblue;
+}
+
+body{
+  background-color: #222;
+  overflow-x: hidden;
+
+}
+
+.cyanBg{
+  background-color: #0c3e66; 
+}
+
+
+
+
+
+button{
+  
+height: 7vh;
+width: 6vw;
+background-color: #4790cc; 
+border: none;
+border-radius: 3px;
+
+}
+
+.lilButton{
+  height: 5vh;
+width: 6vw;
+}
+
+.bigButton{
+  width: 20vw;
+  height: 7vh;
+  background-color: #4790cc !important; 
+  align-self: center;
+  border-color: cyan;
+
+
+}
+
+.bigButton:hover{
+  scale: 1.2;
+  transition: ease-in-out
+}
+
+h1, h2,p{
+  text-align: center;
+}
+ 
+table{
+  width: 90vw;
+  border: cyan 1px solid;
+}
+
+.today{
+  margin-bottom: 1%;
+  font-size: small;
+}
+h1{
+  margin-block: 1%;
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 2.5em;
+  color: rgb(85, 211, 205);
+  margin-block: 2%;
+}
+
+input {
+  border: #5457e2 0.5px solid;
+
+  border-radius: 5px;
+  background-color: black;
+  align-items: center;
+  height: 7vh;
+  width: 15vw;
+}
+
+th{
+  font-size: 0.7em;
+    color: #63a0d3;
+
+
+}
+
+
+td{
+  border-left: black 1px solid;
+}
+
+.darker{
+  color: rgb(199, 194, 188);
+}
+
+
+.line{
+  width: 90vw;
+}
