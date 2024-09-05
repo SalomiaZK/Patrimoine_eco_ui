@@ -14,13 +14,12 @@ export default function Today() {
   const [pos, setPos] = useState([]);
   const [isloading, setLoading] = useState(true)
 
-
-
+console.log(import.meta.env.VITE_API_URL);
 
   useEffect( () => {
 
     const  dofetch = async () =>{
-      const donne = await fetch('http://localhost:3000/possessions', {method : "GET"})
+      const donne = await fetch(`${import.meta.env.VITE_API_URL}/possessions`, {method : "GET"})
       const datas = await donne.json()
 
       console.log(datas)
