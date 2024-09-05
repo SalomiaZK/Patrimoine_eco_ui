@@ -69,7 +69,7 @@ const head = {
   return(
       <div>
           <h1>Patrimoine Economique de : Ilo</h1>
-          <p className="today">La date actuelle est {JSON.stringify(new Date(2024, 7, 10)).slice(1,11)}</p>
+          <p className="today">La date actuelle est {new Date().toLocaleDateString()}</p>
 
      <center> <table >
       <tr>
